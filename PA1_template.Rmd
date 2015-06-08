@@ -113,3 +113,5 @@ colnames(t2)<-c("interval","steps","daytype")
 t3<-rbind(t1,t2)
 xyplot(steps~interval|factor(daytype),t3,layout=c(1,2), type="l")
 ```
+
+The user seems to be active more often during the weekends than on the weekdays. 

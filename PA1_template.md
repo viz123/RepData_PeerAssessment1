@@ -152,3 +152,5 @@ xyplot(steps~interval|factor(daytype),t3,layout=c(1,2), type="l")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
+
+The user seems to be active more often during the weekends than on the weekdays. 
